@@ -3,7 +3,7 @@ window.addEventListener('load', () => {
     const song = document.querySelector('.song');
     if (song) {
         song.play().catch((e) => {
-            console.warn('Autoplay was blocked by the browser:', e);
+            console.warn('Autoplay test was blocked by the browser:', e);
         });
     }
 
